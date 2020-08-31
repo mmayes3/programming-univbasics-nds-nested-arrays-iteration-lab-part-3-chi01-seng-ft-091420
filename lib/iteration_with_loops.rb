@@ -11,7 +11,7 @@ def join_nested_strings(src)
     end
     count += 1
   end
-  p string_array.join(" ")
+  return string_array.join(" ")
 end
 array1 = [[1, "H", 2], [3, "I"], ["J", 5, 7.0]]
-join_nested_strings(array1)
+puts join_nested_strings(array1)
